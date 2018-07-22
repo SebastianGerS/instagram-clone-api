@@ -1,0 +1,12 @@
+var config = {
+  db: "@dsPORT.mlab.com:PORT/dbname",
+  dbUsername: "mlabdb_username",
+  dbPassword: "mlabdb_password",
+  secret: "", //can be annything (used by bcrypt to create cryptated passwords)
+  cloudName: "cloudinary_cloudname",
+  cloudKey: "cloudinary_cloudkey",
+  cloudSecret: "cloudinary_cloudsecret",
+  allowOrigin: http://localhost:3000
+};
+
+module.exports = config;
